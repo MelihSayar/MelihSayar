@@ -22,16 +22,9 @@ Projeyi Çalıştırma
 Aşağıdaki adımları takip ederek projeyi çalıştırabilirsiniz.
 
 Gerekli kütüphaneleri yükleyin:
-
-bash
-Kopyala
-Düzenle
 pip install tensorflow numpy matplotlib
 Kod dosyasını çalıştırın:
 
-python
-Kopyala
-Düzenle
 import tensorflow as tf
 from tensorflow.keras import layers, models
 import numpy as np

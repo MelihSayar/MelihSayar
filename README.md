@@ -1,26 +1,37 @@
-MNIST Digit Classification
-Bu proje, MNIST veri seti kullanarak el yazısı rakamları sınıflandıran bir yapay zeka modelinin eğitimini ve tahminini gerçekleştirmektedir. Proje, TensorFlow ve Keras kullanarak bir sinir ağı modeli oluşturur ve modelin doğruluğunu test eder.
+# MNIST Digit Classification
 
-Proje Hedefi
-Bu proje, el yazısıyla yazılmış rakamları sınıflandırmayı hedefleyen bir yapay zeka modelini eğitir. Model, MNIST veri seti üzerinde eğitim alır ve test verileriyle doğruluğunu değerlendirir.
+Bu proje, **MNIST veri seti** kullanarak **el yazısı rakamları** sınıflandıran bir yapay zeka modelinin eğitimini ve tahminini gerçekleştirmektedir. Proje, **TensorFlow** ve **Keras** kullanarak bir sinir ağı modeli oluşturur ve modelin doğruluğunu test eder.
 
-Gerekli Kütüphaneler
+## Proje Hedefi
+
+Bu proje, el yazısıyla yazılmış rakamları sınıflandırmayı hedefleyen bir yapay zeka modelini eğitir. Model, **MNIST veri seti** üzerinde eğitim alır ve test verileriyle doğruluğunu değerlendirir.
+
+## Gerekli Kütüphaneler
+
 Projede kullanılan ana kütüphaneler şunlardır:
 
-tensorflow: Modelin eğitimini ve değerlendirmesini yapar.
-numpy: Veri işlemleri için kullanılır.
-matplotlib: Eğitim ve test görüntülerini görselleştirir.
+- `tensorflow`: Modelin eğitimini ve değerlendirmesini yapar.
+- `numpy`: Veri işlemleri için kullanılır.
+- `matplotlib`: Eğitim ve test görüntülerini görselleştirir.
+
 Bu kütüphaneleri yüklemek için şu komutu kullanabilirsiniz:
 
-
+```bash
 pip install tensorflow numpy matplotlib
 Projeyi Çalıştırma
 Aşağıdaki adımları takip ederek projeyi çalıştırabilirsiniz.
 
 Gerekli kütüphaneleri yükleyin:
-pip install tensorflow numpy matplotlib
 
+bash
+Kopyala
+Düzenle
+pip install tensorflow numpy matplotlib
 Kod dosyasını çalıştırın:
+
+python
+Kopyala
+Düzenle
 import tensorflow as tf
 from tensorflow.keras import layers, models
 import numpy as np
@@ -73,5 +84,5 @@ Model 10 epoch boyunca eğitilmiştir ve bu sürede doğruluk oranı artmıştı
 Kullanıcı Yorumları
 Projeyi geliştirirken, farklı eğitim stratejileri ve model yapıları kullanabilirsiniz. Veri augmentasyonu veya modelin eğitim süresini uzatarak modelin doğruluğunu artırmayı düşünebilirsiniz.
 
-Geliştirlebilirlik
-Projeyi geliştirmek için web tasarımı ve arayüz eklenebilir.Yeni kodlar eklenerek sayılarla yeni tanışan çocuklar için bir eğitim aracı ve oyun haline getirilebilir.
+Geliştirilebilirlik
+Projeyi geliştirmek için web tasarımı ve arayüz eklenebilir. Yeni kodlar eklenerek sayılarla yeni tanışan çocuklar için bir eğitim aracı ve oyun haline getirilebilir.

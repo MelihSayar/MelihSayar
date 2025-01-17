@@ -64,18 +64,18 @@ plt.show()
 # Modelin tahminini yapma
 predictions = model.predict(x_test)
 print(f"İlk test görüntüsüne yapılan tahmin: {np.argmax(predictions[0])}")
-Model Yapısı
+##Model Yapısı
 Model, şu katmanlardan oluşur:
 
 Flatten: 28x28 boyutundaki 2D resimleri tek bir uzun vektöre dönüştürür.
 Dense Layer: 128 nörondan oluşan bir tam bağlı katman.
 Dropout Layer: Overfitting (aşırı öğrenme) problemini önlemek için %20 dropout oranı.
 Dense Output Layer: 10 nöronlu çıkış katmanı, her biri bir rakamı (0-9) temsil eder. Softmax aktivasyon fonksiyonu ile, her bir rakam için olasılık hesaplanır.
-Eğitim Süreci
+##Eğitim Süreci
 Model 10 epoch boyunca eğitilmiştir ve bu sürede doğruluk oranı artmıştır. Epoch değeri arttırılarak daha tutarlı sonuçlar elde edilebilir.
 
-Kullanıcı Yorumları
+##Kullanıcı Yorumları
 Projeyi geliştirirken, farklı eğitim stratejileri ve model yapıları kullanabilirsiniz. Veri augmentasyonu veya modelin eğitim süresini uzatarak modelin doğruluğunu artırmayı düşünebilirsiniz.
 
-Geliştirilebilirlik
+##Geliştirilebilirlik
 Projeyi geliştirmek için web tasarımı ve arayüz eklenebilir. Yeni kodlar eklenerek sayılarla yeni tanışan çocuklar için bir eğitim aracı ve oyun haline getirilebilir.

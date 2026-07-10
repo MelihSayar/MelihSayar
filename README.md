@@ -5,7 +5,7 @@ I’m a 2nd year Statistics student at Hacettepe University, passionate about da
 - 🎓 Currently studying Statistics and developing skills in R, Python, SPSS, and Excel  
 - 💻 Interested in data science, machine learning, and software development  
 - 🚀 Always eager to work on new projects and collaborate with others  
-- 📫 You can reach me at: [your.email@example.com](mailto:your.email@example.com)  
+- 📫 You can reach me at: [your.email@example.com](mailto:sayarmelih75@gmail.com)  
 - 🔗 Feel free to connect!
 
 ---
